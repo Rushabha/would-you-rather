@@ -1,0 +1,36 @@
+$primary-color: #238EF0;
+
+.button {
+    background-color: $primary-color;
+    transition: background-color 0.35s;
+    outline: none;
+    border: 1px;
+    color: white;
+    border-radius: 2px;
+
+    &--sm {
+        padding: 3px 5px;
+        font-size: 12px;
+    }
+
+    &--md {
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+
+    &--lg {
+        padding: 5px 30px;
+        font-size: 16px;
+    }
+
+    &:hover {
+        background-color: darken($color: $primary-color, $amount: 15%);
+        cursor: pointer;
+    }
+
+    &:disabled {
+        background: #555;
+        color: white;
+        cursor: default
+    }
+}

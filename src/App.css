@@ -1,0 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.page {
+  padding-top: 30px;
+}

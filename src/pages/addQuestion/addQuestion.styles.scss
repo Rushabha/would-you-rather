@@ -1,0 +1,53 @@
+.create-new-question {
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 30px auto;
+
+    &__heading {
+        text-align: center;
+        margin: 10px 0px;
+        font-weight: 600;
+        font-size: 24px;
+        color: #333;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #ebe3e3;
+    }
+
+    &__or-heading {
+        text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    &__data {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        &__heading {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+
+    &__optionOne, &__optionTwo {
+        input {
+            box-sizing: border-box;
+            padding: 10px 20px;
+            width: 100%;
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid #ebe3e3;
+
+            &:focus {
+                border-color: #238EF0;
+            }
+        }
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
